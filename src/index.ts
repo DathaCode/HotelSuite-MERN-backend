@@ -13,7 +13,7 @@ const app = express();
 app.use(clerkMiddleware());
 // Middleware to parse JSON data in the request body
 app.use(express.json());
-app.use(cors({ origin: "http://localhost:5173" })); // Change this to your frontend URL when deploying
+app.use(cors({ origin: "https://aidf-horizone-frontend-vidath.netlify.app" })); // Change this to your frontend URL when deploying
 
 app.use("/api/hotels", hotelsRouter);
 app.use("/api/bookings", bookingsRouter);
