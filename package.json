@@ -17,8 +17,11 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "mongodb": "^6.15.0",
     "mongoose": "^8.9.5",
     "openai": "^4.86.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "zod": "^3.24.2"
   },
   "devDependencies": {
@@ -26,8 +29,12 @@
     "@types/express": "^5.0.0",
     "@types/mongoose": "^5.11.97",
     "@types/node": "^22.13.1",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
     "nodemon": "^3.1.9",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.3"
+    "typescript": "^5.7.3",
+    "vite": "^6.2.4"
   }
 }
