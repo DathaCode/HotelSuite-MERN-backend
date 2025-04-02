@@ -25,7 +25,7 @@ export const retrieve = async (
         };
       }
 
-      // Apply price range filter if provided; assumes Hotel.price is stored as a number
+      // price range filter if price is stored as a number
       if (minPrice || maxPrice) {
         filter.price = {};
         if (minPrice) {
@@ -36,7 +36,7 @@ export const retrieve = async (
         }
       }
 
-      // Determine sort order for price: ascending by default, descending if sort=desc
+      // sort=desc
       const sortOption: any = {};
       if (sort && sort.toString() === "desc") {
         sortOption.price = -1;
