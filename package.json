@@ -1,5 +1,5 @@
 {
-  "name": "aidf-4-back-end",
+  "name": "hotelsuite-back-end",
   "version": "1.0.0",
   "scripts": {
     "dev": "nodemon --exec ts-node -T src/index.ts",

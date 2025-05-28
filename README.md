@@ -1,6 +1,6 @@
 # Overview
 
-This repository contains the backend code of the aidf project.
+This repository contains the backend code of the hotelsuite project.
 
 # Usage
 
